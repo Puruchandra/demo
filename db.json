@@ -1,58 +1,56 @@
 {
-  "orders": [
-    {
-      "cart": "121",
-      "quotation": "23122",
-      "order_number": 1,
-      "reference_number": 3462378,
-      "total_items": 2,
-      "subtotal": "15000",
-      "discount_amount": "1500",
-      "discount_percentage": "10",
-      "order_total": "13500",
-      "created_by": "21-06-2020",
-      "last_modified_by": "21-06-2020",
-      "buyer_company": "RJ Corp.",
-      "seller_company": "RJ Corp",
-      "buyer_branch": "HYD",
-      "user": "john doe",
-      "billing_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-      "shipping_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-      "tax": "0",
-      "status": "Completed",
-      "order_status": "Completed",
-      "payment_status": "Paid",
-      "delivery_method": "COD",
-      "comments": "NA",
-      "sales_person": "Alone Mask"
-    },
-    {
-      "cart": "123",
-      "quotation": "43479",
-      "order_number": 2,
-      "reference_number": 4346278,
-      "total_items": 4,
-      "subtotal": "10000",
-      "discount_amount": "1000",
-      "discount_percentage": "10",
-      "order_total": "9000",
-      "created_by": "21-06-2020",
-      "last_modified_by": "21-06-2020",
-      "buyer_company": "UB Corp.",
-      "seller_company": "UB Corp",
-      "buyer_branch": "Pune",
-      "user": "john doe",
-      "billing_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-      "shipping_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-      "tax": "0",
-      "status": "pending",
-      "order_status": "Pending",
-      "payment_status": "Paid",
-      "delivery_method": "COD",
-      "comments": "NA",
-      "sales_person": "Alone Mask"
-    }
-  ],
+  "orders": {
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "id": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+        "buyer_company": {
+          "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+          "name": "company"
+        },
+        "order_number": "458520",
+        "reference_number": "845646",
+        "buyer_branch": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+        "number_of_items": 10,
+        "order_items": [],
+        "order_total": null,
+        "discount_percentage": null,
+        "discount_amount": null,
+        "payment_status": "pending",
+        "order_status": "new",
+        "comments": null,
+        "is_active": true,
+        "sales_person": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+        "created_at": "2020-05-06T17:12:42.685423Z",
+        "updated_at": "2020-05-06T17:12:42.685459Z"
+      },
+      {
+        "id": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+        "buyer_company": {
+          "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+          "name": "company"
+        },
+        "order_number": "458520",
+        "reference_number": "845646",
+        "buyer_branch": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+        "customer": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+        "number_of_items": 10,
+        "order_items": [],
+        "order_total": null,
+        "discount_percentage": null,
+        "discount_amount": null,
+        "payment_status": "pending",
+        "order_status": "new",
+        "comments": null,
+        "is_active": true,
+        "sales_person": null,
+        "created_at": "2020-05-06T17:12:42.685423Z",
+        "updated_at": "2020-05-06T17:12:42.685459Z"
+      }
+    ]
+  },
   "order": {
     "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
     "buyer_company": {
@@ -78,7 +76,7 @@
         "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
         "name": "check",
         "sku": "check-one",
-        "price": 400
+        "price": "400"
       },
       {
         "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
@@ -87,17 +85,26 @@
         "price": ""
       }
     ],
-    "billing_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-    "shipping_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+    "quotation": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+    "billing_address": {
+      "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+      "city": "delih"
+    },
+    "shipping_address": {
+      "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+      "city": "delih"
+    },
     "number_of_items": 45,
     "order_total": null,
-    "taxes": null,
+    "tax": null,
     "discount_percentage": null,
     "discount_amount": null,
-    "payment_mode": "wallet",
+    "delivery_method": "wallet",
     "payment_status": "pending",
+    "status": "new",
     "order_status": "new",
     "comments": null,
+    "sales_person": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
     "is_active": true,
     "created_at": "2020-05-06T17:12:42.685423Z",
     "updated_at": "2020-05-06T17:12:42.685459Z"
