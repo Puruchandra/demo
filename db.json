@@ -1,35 +1,26 @@
-{
-  "offers": {
-  "cart": "string",
-  "quotation": "string",
-  "order_number": 214565856,
-  "reference_number": 21456987,
-  "total_items": -2147483648,
-  "subtotal": "string",
-  "discount_amount": "string",
-  "discount_percentage": "string",
-  "order_total": "string",
-  "created_by": "string",
-  "last_modified_by": "string",
-  "buyer_company": "string",
-  "seller_company": "string",
-  "buyer_branch": "string",
-  "user": "string",
-  "billing_address": "string",
-  "shipping_address": "string",
-  "tax": "string",
+  {
+  "cart": "121",
+  "quotation": "23122",
+  "order_number": 1,
+  "reference_number": 3462378,
+  "total_items": 2,
+  "subtotal": "15000",
+  "discount_amount": "1500",
+  "discount_percentage": "10",
+  "order_total": "13500",
+  "created_by": "21-06-2020",
+  "last_modified_by": "21-06-2020",
+  "buyer_company": "RJ Corp.",
+  "seller_company": "RJ Corp",
+  "buyer_branch": "HYD",
+  "user": "john doe",
+  "billing_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+  "shipping_address": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
+  "tax": "0",
   "status": "string",
-  "order_status": "string",
-  "payment_status": "string",
-   "delivery_method": "string",
-  "comments": "string",
-  "sales_person": "string
-},
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "order_status": "Pending",
+  "payment_status": "Paid",
+   "delivery_method": "",
+  "comments": "NA",
+  "sales_person": "Alone Mask"
 }
