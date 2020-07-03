@@ -8,7 +8,7 @@
         "id": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
         "buyer_company": {
           "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-          "name": "company"
+          "name": "Umbrella Corp"
         },
         "order_number": "458520",
         "reference_number": "845646",
@@ -30,7 +30,7 @@
         "id": "56850115-b8ac-4ee4-b2c1-038a2f61a4f2",
         "buyer_company": {
           "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-          "name": "company"
+          "name": "Umbrella Corp"
         },
         "order_number": "458520",
         "reference_number": "845646",
@@ -75,24 +75,32 @@
       {
         "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
         "name": "check",
-        "sku": "check-one",
+        "sku": "Nisi",
         "price": "400"
       },
       {
         "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
         "name": "check",
         "sku": "check-two",
-        "price": ""
+        "price": "600"
       }
     ],
     "quotation": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
     "billing_address": {
       "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-      "city": "delih"
+      "street": "34/1",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "zipcode": "410014"
     },
     "shipping_address": {
       "id": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
-      "city": "delih"
+      "street": "34/1",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "zipcode": "410014"
     },
     "number_of_items": 45,
     "order_total": null,
@@ -101,8 +109,8 @@
     "discount_amount": null,
     "delivery_method": "wallet",
     "payment_status": "pending",
-    "status": "new",
-    "order_status": "new",
+    "status": "Shipped",
+    "order_status": "Shipped",
     "comments": null,
     "sales_person": "46850115-b8ac-4ee4-b2c1-038a2f61a4f2",
     "is_active": true,
