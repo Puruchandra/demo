@@ -116,5 +116,62 @@
     "is_active": true,
     "created_at": "2020-05-06T17:12:42.685423Z",
     "updated_at": "2020-05-06T17:12:42.685459Z"
+  },
+  
+  "transactions" : [
+  {
+    "count": 1,
+    "items": [
+      {
+        "id": "654",
+        "customer_id": "10",
+        "address_id": "1",
+        "company_name": "TRADEXA TECHNOLOGIES PRIVATE LIMITED",
+        "branch_name": "Nikita Distributors - Pune (19-20)",
+        "closing_balance": "-1950914",
+        "created_at": "2020-05-20 19:57:31",
+        "updated_at": "2020-05-20 19:57:31"
+      }
+    ]
   }
+],
+  "transactions_details": [
+  {
+    "count": 2,
+    "items": [
+      {
+        "id": "8021",
+        "customer_id": "10",
+        "address_id": "1",
+        "company_name": "TRADEXA TECHNOLOGIES PRIVATE LIMITED",
+        "branch_name": "Nikita Distributors - Pune (19-20)",
+        "transaction_date": "2020-05-23 00:00:00",
+        "transaction_description": "Sales GST 18%",
+        "transaction_type": "Sale",
+        "voucher_number": "(No. :ND/MH/2021/102)",
+        "debit_amount": "-914",
+        "credit_amount": "0",
+        "closing_balance": "-1950914",
+        "created_at": "2020-05-24 19:52:01",
+        "updated_at": "2020-05-24 19:52:01"
+      },
+      {
+        "id": "7866",
+        "customer_id": "10",
+        "address_id": "1",
+        "company_name": "TRADEXA TECHNOLOGIES PRIVATE LIMITED",
+        "branch_name": "Nikita Distributors - Pune (19-20)",
+        "transaction_date": "2020-05-19 00:00:00",
+        "transaction_description": "HDFC Bank Ltd. 6386",
+        "transaction_type": "Pymt",
+        "voucher_number": "(No. :177)",
+        "debit_amount": "-1950000",
+        "credit_amount": "0",
+        "closing_balance": "-1950000",
+        "created_at": "2020-05-20 19:57:31",
+        "updated_at": "2020-05-20 19:57:31"
+      }
+    ]
+  }
+]
 }
