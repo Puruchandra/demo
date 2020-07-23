@@ -173,5 +173,69 @@
       }
     ]
   }
-]
+],
+  "aggregations": {
+    "Price Filter": {
+      "buckets": [
+        {
+          "key": "0.0-1000.0",
+          "from": 0.0,
+          "to": 1000.0,
+          "doc_count": 1
+        },
+        {
+          "key": "1000.0-100000.0",
+          "from": 1000.0,
+          "to": 100000.0,
+          "doc_count": 2
+        },
+        {
+          "key": "100000.0-1000000.0",
+          "from": 100000.0,
+          "to": 1000000.0,
+          "doc_count": 2
+        }
+      ]
+    },
+    "TAGS Filter": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Best Seller",
+          "doc_count": 3
+        },
+        {
+          "key": "Top Rated",
+          "doc_count": 3
+        },
+        {
+          "key": "Best Seller in category",
+          "doc_count": 1
+        },
+        {
+          "key": "Trending",
+          "doc_count": 1
+        }
+      ]
+    },
+    "Category Filter": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Lens",
+          "doc_count": 5
+        },
+        {
+          "key": "Samyang",
+          "doc_count": 3
+        },
+        {
+          "key": "Samyang Samyang Samyang",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
 }
